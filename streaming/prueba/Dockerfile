@@ -1,4 +1,4 @@
-FROM php:7.4.1-apache-buster
+FROM php:7.4.32-apache-buster
 
 COPY src/ /var/www/html
 
