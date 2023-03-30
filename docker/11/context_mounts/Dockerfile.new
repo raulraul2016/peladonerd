@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:experimental
 
-FROM alpine
+FROM alpine:3.17.3
 
 RUN --mount=target=./files \
   tar -cf files.tar files
